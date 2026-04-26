@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrated Farm System | Milestones</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="brand" href="index.html">Integrated Farm System</a>
+            <button class="nav-toggle" type="button" aria-label="Toggle navigation">Menu</button>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="domain.html">Domain</a>
+                <a href="milestones.html">Milestones</a>
+                <a href="documents.html">Documents</a>
+                <a href="slides.html">Slides</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <span class="project-id">25-26J-352 </span>
+        </div>
+    </header>
+
+    <main>
+        <section class="section reveal">
+            <p class="kicker">Milestones</p>
+            <h1><span class="gradient-text">Project Assessments</span></h1>
+            <p class="subtext">Select a milestone to view details, expected submission period, and allocated marks.</p>
+            <p class="page-banner">Milestones track how farm modules progress from concept validation to integrated field-ready deployment.</p>
+
+            <div class="select-wrap" style="margin-top: 18px;">
+                <select id="milestoneSelect" aria-label="Select milestone">
+                    <option value="">-- Select a Milestone --</option>
+                    <option value="proposal">Project Proposal</option>
+                    <option value="pp1">Progress Presentation 1</option>
+                    <option value="pp2">Progress Presentation 2</option>
+                    <option value="viva">Final Viva</option>
+                </select>
+            </div>
+
+            <article class="details-box" style="margin-top: 18px;">
+                <h3 id="milestoneName">Select an assessment</h3>
+                <p id="milestoneDesc" class="subtext">Choose a milestone from the dropdown to view details.</p>
+                <div class="details-row">
+                    <div class="details-cell">
+                        <span>Date</span>
+                        <strong id="milestoneDate"></strong>
+                    </div>
+                    <div class="details-cell">
+                        <span>Marks Allocated</span>
+                        <strong id="milestoneMarks"></strong>
+                    </div>
+                    <div class="details-cell">
+                        <span>Status</span>
+                        <strong id="milestoneStatus"></strong>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="section reveal">
+            <p class="kicker">Assessment List</p>
+            <div class="grid-2" style="margin-top: 12px;">
+                <article class="card">
+                    <h3>Project Proposal</h3>
+                    <p>Initial project planning, domain analysis, and architectural direction.</p>
+                </article>
+                <article class="card">
+                    <h3>Progress Presentation 1</h3>
+                    <p>Early implementation review with prototype features and preliminary results.</p>
+                </article>
+                <article class="card">
+                    <h3>Progress Presentation 2</h3>
+                    <p>Integrated module demonstrations and major performance outcomes.</p>
+                </article>
+                <article class="card">
+                    <h3>Final Viva</h3>
+                    <p>Complete system presentation, final report, and oral defense evaluation.</p>
+                </article>
+            </div>
+
+            <div class="asset-grid">
+                <div class="asset-tile">
+                    <img src="assets/images/chicken.svg" alt="Health milestone asset">
+                    <span>Health Milestones</span>
+                </div>
+                <div class="asset-tile">
+                    <img src="assets/images/sensor.svg" alt="Sensor milestone asset">
+                    <span>Sensor Milestones</span>
+                </div>
+                <div class="asset-tile">
+                    <img src="assets/images/egg.svg" alt="Egg milestone asset">
+                    <span>Quality Milestones</span>
+                </div>
+                <div class="asset-tile">
+                    <img src="assets/images/barn.svg" alt="Deployment milestone asset">
+                    <span>Deployment</span>
+                </div>
+                <div class="asset-tile">
+                    <img src="assets/images/leaf.svg" alt="Environment milestone asset">
+                    <span>Environment</span>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            Update dates and marks once official assessment schedule is released.
+        </footer>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
